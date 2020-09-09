@@ -3334,7 +3334,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-columns: 0.2fr 1fr;
 		grid-template-rows: 0.2fr 0.3fr;
-		grid-column-gap: 5%;
+		grid-column-gap: 3%;
 	}
 
 	.profilepic {
