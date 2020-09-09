@@ -3332,12 +3332,13 @@ input, select, textarea {
 	.presentation{
 		margin-bottom: 10%;
 		display: grid;
-		grid-template-columns: 0.3fr 1.7fr;
-		grid-template-rows: 1fr 1fr;
-		grid-gap: 1rem;
-		grid-template-areas:
-		  "Picture Title"
-		  "Picture Desc";
+		grid-template-columns: 0.2fr 1fr;
+		grid-template-rows: 0.2fr 0.3fr;
+		grid-column-gap: 5%;
+	}
+
+	.profilepic {
+		grid-area: 1 / 1 / 3 / 2;
 	}
 
 	.profilepic img {
@@ -3347,10 +3348,10 @@ input, select, textarea {
 	}
 
 	.proifleLine {
-		grid-area: Title;
+		grid-area: 1 / 2 / 2 / 3;
 		margin: 0;
 	}
 	.profileDesc {
-		grid-area: Desc;
+		grid-area: 2 / 2 / 3 / 3;
 		margin: 0;
 	}
