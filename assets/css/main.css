@@ -3329,6 +3329,8 @@ input, select, textarea {
 		}
 
 /* mycss */
+
+/* presentation */
 	.presentation{
 		margin-bottom: 10%;
 		display: grid;
@@ -3353,5 +3355,25 @@ input, select, textarea {
 	}
 	.profileDesc {
 		grid-area: 2 / 2 / 3 / 3;
+		margin: 0;
+	}
+
+	/* project grid  */
+	.projects {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		}
+		
+		.div1 { grid-area: 2 / 2 / 3 / 3; }
+		.div2 { grid-area: 1 / 4 / 2 / 5; }
+
+	.projectTitle {
+		margin: 0;
+	}
+
+	.projectContent p {
 		margin: 0;
 	}
