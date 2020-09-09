@@ -3332,9 +3332,9 @@ input, select, textarea {
 	.presentation{
 		margin-bottom: 10%;
 		display: grid;
-		grid-template-columns: 0.8fr 1.7fr;
-		grid-template-rows: 0.005fr 0.005fr;
-		grid-gap: 5%;
+		grid-template-columns: 0.3fr 1.7fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 1rem;
 		grid-template-areas:
 		  "Picture Title"
 		  "Picture Desc";
